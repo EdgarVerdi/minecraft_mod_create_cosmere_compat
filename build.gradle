@@ -122,6 +122,8 @@ repositories {
 
     maven { url = "https://cursemaven.com" }            // CurseMaven for Cosmere
     maven { url = "https://maven.theillusivec4.top/" }  // IllusiveC4 Maven for Curios
+
+    maven { url = "https://maven.blamejared.com/"} // JEI remove afterwards
 }
 
 dependencies {
@@ -142,6 +144,11 @@ dependencies {
 
     //Cosmere
     implementation fg.deobf("curse.maven:cosmere-475343:8218445")
+
+    //JEI remove afterwards
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.20.0.132")
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.20.0.132")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.20.0.132")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

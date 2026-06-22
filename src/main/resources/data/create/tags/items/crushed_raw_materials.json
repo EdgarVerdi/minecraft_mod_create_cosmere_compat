@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_cosmere_compat:crushed_raw_cadmium",
+    "create_cosmere_compat:crushed_raw_chromium"
+  ]
+}

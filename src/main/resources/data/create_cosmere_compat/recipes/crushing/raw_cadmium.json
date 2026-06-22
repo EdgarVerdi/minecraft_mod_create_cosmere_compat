@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:raw_materials/cadmium"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/cadmium"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "create_cosmere_compat:crushed_raw_cadmium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

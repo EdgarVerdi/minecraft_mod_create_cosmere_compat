@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_cosmere_compat:crushed_raw_cadmium"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "cosmere:cadmium_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:quartz"
+    }
+  ]
+}
