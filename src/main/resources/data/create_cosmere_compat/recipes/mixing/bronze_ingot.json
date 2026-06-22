@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {"tag": "forge:ingots/copper"},
+    {"tag": "forge:ingots/copper"},
+    {"tag": "forge:ingots/copper"},
+    {"tag": "forge:ingots/tin"}
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "cosmere:bronze_ingot"
+    }
+  ]
+}

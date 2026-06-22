@@ -2,4 +2,5 @@
 - [x] Blast each of the 7 crushed ores
 - [x] Wash each of the 7 crushed ores
 - [x] Crushed recipes for the 2 crushed ores
-- [ ] Mix each of the other 7 alloys
+- [ ] Mix each of the other 7 alloys (using ingots but dust also fine?)
+- [ ] Poison cosmere blend recipes (we don't want the ones with ingots and raw, but dust to blend is fine)
