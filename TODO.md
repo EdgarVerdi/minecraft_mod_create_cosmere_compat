@@ -1,6 +1,10 @@
-- [ ] Choose a correct byproduct to each of the 7 splashing recipes with crushed ore
 - [x] Blast each of the 7 crushed ores
 - [x] Wash each of the 7 crushed ores
-- [x] Crushed recipes for the 2 crushed ores
-- [ ] Mix each of the other 7 alloys (using ingots but dust also fine?)
-- [ ] Poison cosmere blend recipes (we don't want the ones with ingots and raw, but dust to blend is fine)
+  - [ ] Choose a correct byproduct to each of the 7 splashing recipes with crushed ore
+- [x] Crushed recipes for the new 2 crushed ores
+- [x] Mix each of the other 7 alloys
+  - [ ] decide if dust should be allowed for the recipe instead
+- [x] Poison cosmere blend recipes (we don't want the ones with ingots and raw, but dust to blend is fine)
+  - [ ] decide if dust should be removed too or not
+- [ ] Stop cosmere zinc from spawning in the world
+- [ ] Add contains metal to all cosmere blocks that apply

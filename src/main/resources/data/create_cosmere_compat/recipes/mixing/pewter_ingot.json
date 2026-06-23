@@ -3,22 +3,25 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "tag": "forge:ingots/copper"
-    },
-    {
-      "tag": "forge:ingots/copper"
-    },
-    {
-      "tag": "forge:ingots/copper"
+      "tag": "forge:ingots/tin"
     },
     {
       "tag": "forge:ingots/tin"
+    },
+    {
+      "tag": "forge:ingots/tin"
+    },
+    {
+      "tag": "forge:ingots/tin"
+    },
+    {
+      "tag": "forge:ingots/lead"
     }
   ],
   "results": [
     {
-      "count": 4,
-      "item": "cosmere:bronze_ingot"
+      "count": 5,
+      "item": "cosmere:pewter_ingot"
     }
   ]
 }

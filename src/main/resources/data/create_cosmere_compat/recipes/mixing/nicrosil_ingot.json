@@ -3,22 +3,22 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "tag": "forge:ingots/copper"
+      "tag": "forge:ingots/chromium"
     },
     {
-      "tag": "forge:ingots/copper"
+      "tag": "forge:ingots/nickel"
     },
     {
-      "tag": "forge:ingots/copper"
+      "tag": "forge:ingots/nickel"
     },
     {
-      "tag": "forge:ingots/tin"
+      "tag": "forge:ingots/nickel"
     }
   ],
   "results": [
     {
       "count": 4,
-      "item": "cosmere:bronze_ingot"
+      "item": "cosmere:nicrosil_ingot"
     }
   ]
 }

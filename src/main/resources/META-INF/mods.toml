@@ -83,5 +83,13 @@ description='''${mod_description}'''
     modId="create"
     mandatory=true
     versionRange="[6.0.8,6.1.0)"
-    ordering="NONE"
+    ordering="AFTER"
+    side="BOTH"
+
+# Cosmere
+[[dependencies.${mod_id}]]
+    modId="cosmere"
+    mandatory=true
+    versionRange="[0.7.0,)"
+    ordering="AFTER"
     side="BOTH"
