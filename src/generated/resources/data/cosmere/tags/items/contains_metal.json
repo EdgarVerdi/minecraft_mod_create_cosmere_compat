@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "create:smart_chute",
+      "required": false
+    }
+  ]
+}
