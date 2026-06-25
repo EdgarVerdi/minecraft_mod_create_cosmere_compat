@@ -14,6 +14,8 @@ import java.util.concurrent.CompletableFuture;
 @Mod.EventBusSubscriber(modid = "create_cosmere_compat", bus = Mod.EventBusSubscriber.Bus.MOD) // Put your Mod ID here
 public class ModDataGenerators {
 
+    public static final String CONTAINS_METAL_TXT_PATH = "src/main/resources/verdi_data/contains_metal.txt";
+
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
@@ -21,12 +23,17 @@ public class ModDataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
+        TagFileReader.TaggedObjectsByType tObT = TagFileReader.readFromFile(CONTAINS_METAL_TXT_PATH);
+
         // 1. Create the Block Tag Provider
         ModBlockTagGenerator blockTagGenerator = generator.addProvider(event.includeServer(),
-                new ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper));
+                new ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper, tObT.blocks()));
 
-        // 2. Create the Item Tag Provider (Notice how it grabs the block data from the one above!)
+        // 2. Create the Item Tag Provider
         generator.addProvider(event.includeServer(),
-                new ModItemTagGenerator(packOutput, lookupProvider, blockTagGenerator.contentsGetter(), existingFileHelper));
+                new ModItemTagGenerator(packOutput, lookupProvider, blockTagGenerator.contentsGetter(),
+                        existingFileHelper, tObT.items()));
+
+
     }
 }

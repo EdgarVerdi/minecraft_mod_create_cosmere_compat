@@ -1,0 +1,15 @@
+:create:
+    :items:
+        wrench
+        linked_controller
+        potato_cannon
+        extendo_grip
+        wand_of_symmetry
+    :blocks:
+        railway_casing
+    :block_and_items:
+        schematicannon
+        track
+:mekanism:
+    :items:
+        osmium_ingot
