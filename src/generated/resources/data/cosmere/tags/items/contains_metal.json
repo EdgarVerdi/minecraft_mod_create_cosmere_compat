@@ -1,7 +1,35 @@
 {
   "values": [
     {
-      "id": "create:smart_chute",
+      "id": "#create:wrench",
+      "required": false
+    },
+    {
+      "id": "#create:linked_controller",
+      "required": false
+    },
+    {
+      "id": "#create:potato_cannon",
+      "required": false
+    },
+    {
+      "id": "#create:extendo_grip",
+      "required": false
+    },
+    {
+      "id": "#create:wand_of_symmetry",
+      "required": false
+    },
+    {
+      "id": "#create:schematicannon",
+      "required": false
+    },
+    {
+      "id": "#create:track",
+      "required": false
+    },
+    {
+      "id": "#mekanism:osmium_ingot",
       "required": false
     }
   ]

@@ -30,7 +30,7 @@ public class TagFileReader {
         TaggedObjectsByType ret = new TaggedObjectsByType(new ArrayList<>(), new ArrayList<>(), new ArrayList<>());
         Scanner in;
         try {
-            in = new Scanner(Paths.get(path));
+            in = new Scanner(Paths.get("../"+path));
             in.useDelimiter(":");
         } catch (Exception e) {
             System.out.println("Could not read text file!");
@@ -57,10 +57,10 @@ public class TagFileReader {
 
             List<String> objects = List.of(in.next().trim().split("\\s+"));
             switch (word){
-                case ITEMS_CAT: items.addAll(objects);
-                case BLOCKS_CAT: blocks.addAll(objects);
-                case ENTITY_CAT: entities.addAll(objects);
-                case ITEM_N_BLOCKS_CAT: items.addAll(objects);  blocks.addAll(objects);
+                case ITEMS_CAT:         items.addAll(objects);                              break;
+                case BLOCKS_CAT:        blocks.addAll(objects);                             break;
+                case ENTITY_CAT:        entities.addAll(objects);                           break;
+                case ITEM_N_BLOCKS_CAT: items.addAll(objects);  blocks.addAll(objects);     break;
             }
         }
         ret.add(modId, items, blocks, entities);
