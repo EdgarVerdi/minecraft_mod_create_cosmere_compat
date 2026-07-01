@@ -1,7 +1,11 @@
 {
   "values": [
     {
-      "id": "#create:railway_casing",
+      "id": "#create:copper_backtank",
+      "required": false
+    },
+    {
+      "id": "#create:netherite_backtank",
       "required": false
     },
     {
@@ -9,7 +13,1087 @@
       "required": false
     },
     {
+      "id": "#create:shaft",
+      "required": false
+    },
+    {
+      "id": "#create:cogwheel",
+      "required": false
+    },
+    {
+      "id": "#create:large_cogwheel",
+      "required": false
+    },
+    {
+      "id": "#create:gearbox",
+      "required": false
+    },
+    {
+      "id": "#create:vertical_gearbox",
+      "required": false
+    },
+    {
+      "id": "#create:clutch",
+      "required": false
+    },
+    {
+      "id": "#create:gearshift",
+      "required": false
+    },
+    {
+      "id": "#create:ajustable_chain_gearshift",
+      "required": false
+    },
+    {
+      "id": "#create:chain_conveyor",
+      "required": false
+    },
+    {
+      "id": "#create:creative_motor",
+      "required": false
+    },
+    {
+      "id": "#create:water_wheel",
+      "required": false
+    },
+    {
+      "id": "#create:large_water_wheel",
+      "required": false
+    },
+    {
+      "id": "#create:encased_fan",
+      "required": false
+    },
+    {
+      "id": "#create:nozzle",
+      "required": false
+    },
+    {
+      "id": "#create:turntable",
+      "required": false
+    },
+    {
+      "id": "#create:hand_crank",
+      "required": false
+    },
+    {
+      "id": "#create:cuckoo_clock",
+      "required": false
+    },
+    {
+      "id": "#create:millstone",
+      "required": false
+    },
+    {
+      "id": "#create:crushing_wheel",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_press",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_mixer",
+      "required": false
+    },
+    {
+      "id": "#create:basin",
+      "required": false
+    },
+    {
+      "id": "#create:empty_blaze_burner",
+      "required": false
+    },
+    {
+      "id": "#create:blaze_burner",
+      "required": false
+    },
+    {
+      "id": "#create:depot",
+      "required": false
+    },
+    {
+      "id": "#create:weighted_ejector",
+      "required": false
+    },
+    {
+      "id": "#create:chute",
+      "required": false
+    },
+    {
+      "id": "#create:smart_chute",
+      "required": false
+    },
+    {
+      "id": "#create:speedometer",
+      "required": false
+    },
+    {
+      "id": "#create:stressometer",
+      "required": false
+    },
+    {
+      "id": "#create:wooden_bracket",
+      "required": false
+    },
+    {
+      "id": "#create:metal_bracket",
+      "required": false
+    },
+    {
+      "id": "#create:fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_pump",
+      "required": false
+    },
+    {
+      "id": "#create:smart_fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "#create:fluid_valve",
+      "required": false
+    },
+    {
+      "id": "#create:copper_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:orange_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:red_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:yellow_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:lime_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:pink_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:brown_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:blue_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:purple_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:black_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:light_blue_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:gray_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:cyan_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:green_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:white_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:magenta_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:light_gray_valve_handle",
+      "required": false
+    },
+    {
+      "id": "#create:fluid_tank",
+      "required": false
+    },
+    {
+      "id": "#create:create_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "#create:hose_pulley",
+      "required": false
+    },
+    {
+      "id": "#create:item_drain",
+      "required": false
+    },
+    {
+      "id": "#create:spout",
+      "required": false
+    },
+    {
+      "id": "#create:portable_fluid_interface",
+      "required": false
+    },
+    {
+      "id": "#create:steam_engine",
+      "required": false
+    },
+    {
+      "id": "#create:steam_whistle",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_piston",
+      "required": false
+    },
+    {
+      "id": "#create:sticky_mechanical_piston",
+      "required": false
+    },
+    {
+      "id": "#create:piston_extension_pole",
+      "required": false
+    },
+    {
+      "id": "#create:gantry_carriage",
+      "required": false
+    },
+    {
+      "id": "#create:gantry_shaft",
+      "required": false
+    },
+    {
+      "id": "#create:windmill_bearing",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_bearing",
+      "required": false
+    },
+    {
+      "id": "#create:clockwork_bearing",
+      "required": false
+    },
+    {
+      "id": "#create:rope_pulley",
+      "required": false
+    },
+    {
+      "id": "#create:elevator_pulley",
+      "required": false
+    },
+    {
+      "id": "#create:cart_assembler",
+      "required": false
+    },
+    {
+      "id": "#create:controller_rail",
+      "required": false
+    },
+    {
+      "id": "#create:linear_chassis",
+      "required": false
+    },
+    {
+      "id": "#create:secondary_linear_chassis",
+      "required": false
+    },
+    {
+      "id": "#create:radial_chassis",
+      "required": false
+    },
+    {
+      "id": "#create:sticker",
+      "required": false
+    },
+    {
+      "id": "#create:contraption_controls",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_drill",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_saw",
+      "required": false
+    },
+    {
+      "id": "#create:deployer",
+      "required": false
+    },
+    {
+      "id": "#create:portable_storage_interface",
+      "required": false
+    },
+    {
+      "id": "#create:redstone_contact",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_harvester",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_plough",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_roller",
+      "required": false
+    },
+    {
+      "id": "#create:sail_frame",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_casing",
+      "required": false
+    },
+    {
+      "id": "#create:brass_casing",
+      "required": false
+    },
+    {
+      "id": "#create:copper_casing",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_crafter",
+      "required": false
+    },
+    {
+      "id": "#create:sequenced_gearshift",
+      "required": false
+    },
+    {
+      "id": "#create:flywheel",
+      "required": false
+    },
+    {
+      "id": "#create:rotation_speed_controller",
+      "required": false
+    },
+    {
+      "id": "#create:mechanical_arm",
+      "required": false
+    },
+    {
       "id": "#create:track",
+      "required": false
+    },
+    {
+      "id": "#create:railway_casing",
+      "required": false
+    },
+    {
+      "id": "#create:train_station",
+      "required": false
+    },
+    {
+      "id": "#create:track_signal",
+      "required": false
+    },
+    {
+      "id": "#create:track_observer",
+      "required": false
+    },
+    {
+      "id": "#create:controls",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_funnel",
+      "required": false
+    },
+    {
+      "id": "#create:brass_funnel",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_tunnel",
+      "required": false
+    },
+    {
+      "id": "#create:brass_tunnel",
+      "required": false
+    },
+    {
+      "id": "#create:content_observer",
+      "required": false
+    },
+    {
+      "id": "#create:stockpile_switch",
+      "required": false
+    },
+    {
+      "id": "#create:create_crate",
+      "required": false
+    },
+    {
+      "id": "#create:item_vault",
+      "required": false
+    },
+    {
+      "id": "#create:item_hatch",
+      "required": false
+    },
+    {
+      "id": "#create:packager",
+      "required": false
+    },
+    {
+      "id": "#create:repackage",
+      "required": false
+    },
+    {
+      "id": "#create:package_frogport",
+      "required": false
+    },
+    {
+      "id": "#create:orange_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:red_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:yellow_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:lime_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:pink_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:brown_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:blue_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:purple_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:black_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:light_blue_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:gray_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:cyan_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:green_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:white_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:magenta_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:light_gray_postbox",
+      "required": false
+    },
+    {
+      "id": "#create:stock_link",
+      "required": false
+    },
+    {
+      "id": "#create:stock_ticker",
+      "required": false
+    },
+    {
+      "id": "#create:redstone_requester",
+      "required": false
+    },
+    {
+      "id": "#create:factory_gauge",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_table_cloth",
+      "required": false
+    },
+    {
+      "id": "#create:brass_table_cloth",
+      "required": false
+    },
+    {
+      "id": "#create:copper_table_cloth",
+      "required": false
+    },
+    {
+      "id": "#create:display_link",
+      "required": false
+    },
+    {
+      "id": "#create:display_board",
+      "required": false
+    },
+    {
+      "id": "#create:nixie_tube",
+      "required": false
+    },
+    {
+      "id": "#create:rose_quartz_lamp",
+      "required": false
+    },
+    {
+      "id": "#create:redstone_link",
+      "required": false
+    },
+    {
+      "id": "#create:analog_lever",
+      "required": false
+    },
+    {
+      "id": "#create:placard",
+      "required": false
+    },
+    {
+      "id": "#create:pulse_repeater",
+      "required": false
+    },
+    {
+      "id": "#create:pulse_extender",
+      "required": false
+    },
+    {
+      "id": "#create:pulse_timer",
+      "required": false
+    },
+    {
+      "id": "#create:powered_latch",
+      "required": false
+    },
+    {
+      "id": "#create:powered_toggle_latch",
+      "required": false
+    },
+    {
+      "id": "#create:peculiar_bell",
+      "required": false
+    },
+    {
+      "id": "#create:haunted_bell",
+      "required": false
+    },
+    {
+      "id": "#create:desk_bell",
+      "required": false
+    },
+    {
+      "id": "#create:orange_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:red_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:yellow_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:lime_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:pink_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:brown_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:blue_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:purple_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:black_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:light_blue_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:gray_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:cyan_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:green_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:white_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:magenta_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:light_gray_toolbox",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_scaffolding",
+      "required": false
+    },
+    {
+      "id": "#create:brass_scaffolding",
+      "required": false
+    },
+    {
+      "id": "#create:copper_scaffolding",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_ladder",
+      "required": false
+    },
+    {
+      "id": "#create:brass_ladder",
+      "required": false
+    },
+    {
+      "id": "#create:copper_ladder",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_bars",
+      "required": false
+    },
+    {
+      "id": "#create:brass_bars",
+      "required": false
+    },
+    {
+      "id": "#create:copper_bars",
+      "required": false
+    },
+    {
+      "id": "#create:metal_grinder",
+      "required": false
+    },
+    {
+      "id": "#create:copycat_step",
+      "required": false
+    },
+    {
+      "id": "#create:copycat_panel",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_door",
+      "required": false
+    },
+    {
+      "id": "#create:brass_door",
+      "required": false
+    },
+    {
+      "id": "#create:copper_door",
+      "required": false
+    },
+    {
+      "id": "#create:train_door",
+      "required": false
+    },
+    {
+      "id": "#create:train_trapdoor",
+      "required": false
+    },
+    {
+      "id": "#create:zinc_ore",
+      "required": false
+    },
+    {
+      "id": "#create:deepslate_zinc_ore",
+      "required": false
+    },
+    {
+      "id": "#create:raw_zinc_block",
+      "required": false
+    },
+    {
+      "id": "#create:zinc_block",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_alloy_block",
+      "required": false
+    },
+    {
+      "id": "#create:industrial_iron_block",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_iron_block",
+      "required": false
+    },
+    {
+      "id": "#create:brass_block",
+      "required": false
+    },
+    {
+      "id": "#create:copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_exposed_copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:exposed_copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:oxidized_copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_weathered_copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_oxidized_copper_shingles",
+      "required": false
+    },
+    {
+      "id": "#create:copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_exposed_copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:exposed_copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:oxidized_copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_weathered_copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_oxidized_copper_shingle_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_exposed_copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:exposed_copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:oxidized_copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_weathered_copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_oxidized_copper_shingle_slab",
+      "required": false
+    },
+    {
+      "id": "#create:copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_exposed_copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:exposed_copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:oxidized_copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_weathered_copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_oxidized_copper_tiles",
+      "required": false
+    },
+    {
+      "id": "#create:copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_exposed_copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:exposed_copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:oxidized_copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_weathered_copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_oxidized_copper_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "#create:copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_exposed_copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:exposed_copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:oxidized_copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_weathered_copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:waxed_oxidized_copper_tile_slab",
+      "required": false
+    },
+    {
+      "id": "#create:ornate_iron_window",
+      "required": false
+    },
+    {
+      "id": "#create:industrial_iron_window",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_iron_window",
+      "required": false
+    },
+    {
+      "id": "#create:ornate_iron_window_pane",
+      "required": false
+    },
+    {
+      "id": "#create:industrial_iron_window_pane",
+      "required": false
+    },
+    {
+      "id": "#create:weathered_iron_window_pane",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_encased_shaft",
+      "required": false
+    },
+    {
+      "id": "#create:brass_encased_shaft",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_encased_cogwheel",
+      "required": false
+    },
+    {
+      "id": "#create:brass_encased_cogwheel",
+      "required": false
+    },
+    {
+      "id": "#create:andesite_encased_large_cogwheel",
+      "required": false
+    },
+    {
+      "id": "#create:brass_encased_large_cogwheel",
+      "required": false
+    },
+    {
+      "id": "#create:water_wheel_structure",
+      "required": false
+    },
+    {
+      "id": "#create:powered_shaft",
+      "required": false
+    },
+    {
+      "id": "#create:encased_fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "#create:orange_sail",
+      "required": false
+    },
+    {
+      "id": "#create:red_sail",
+      "required": false
+    },
+    {
+      "id": "#create:yellow_sail",
+      "required": false
+    },
+    {
+      "id": "#create:lime_sail",
+      "required": false
+    },
+    {
+      "id": "#create:pink_sail",
+      "required": false
+    },
+    {
+      "id": "#create:brown_sail",
+      "required": false
+    },
+    {
+      "id": "#create:blue_sail",
+      "required": false
+    },
+    {
+      "id": "#create:purple_sail",
+      "required": false
+    },
+    {
+      "id": "#create:black_sail",
+      "required": false
+    },
+    {
+      "id": "#create:light_blue_sail",
+      "required": false
+    },
+    {
+      "id": "#create:gray_sail",
+      "required": false
+    },
+    {
+      "id": "#create:cyan_sail",
+      "required": false
+    },
+    {
+      "id": "#create:green_sail",
+      "required": false
+    },
+    {
+      "id": "#create:white_sail",
+      "required": false
+    },
+    {
+      "id": "#create:magenta_sail",
+      "required": false
+    },
+    {
+      "id": "#create:light_gray_sail",
       "required": false
     }
   ]

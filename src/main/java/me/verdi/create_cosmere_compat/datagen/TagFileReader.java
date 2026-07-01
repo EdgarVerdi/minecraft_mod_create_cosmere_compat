@@ -10,6 +10,13 @@ public class TagFileReader {
     public static final String ITEM_N_BLOCKS_CAT = "block_and_items";
     public static final String ENTITY_CAT = "entity";
     public static final Set<String> CATEGORIES = Set.of(ITEMS_CAT, BLOCKS_CAT, ITEM_N_BLOCKS_CAT, ENTITY_CAT);
+    public static final String ID_CUSTOM_TAG_COPPER_STAGES = "copper_stages";
+    public static final Set<String> COPPER_STAGES = Set.of(
+            "exposed", "weathered", "oxidized", "waxed", "waxed_exposed", "waxed_weathered", "waxed_oxidized");
+    public static final String ID_CUSTOM_TAG_COLORED = "colored";
+    public static final Set<String> COLORS = Set.of(
+            "white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan",
+            "purple", "blue", "brown", "green", "red", "black");
 
     public record TaggedObjectsByType(
             List<Tuple<String, List<String>>> items,
@@ -24,6 +31,30 @@ public class TagFileReader {
             if (!entities.isEmpty())
                 this.entities.add(new Tuple<>(modId, entities));
         }
+    }
+
+    static List<String> custom_id_generation(List<String> objects){
+        List<String> new_objects = new ArrayList<>();
+        for (String object : objects){
+            if (!object.startsWith("[")) {
+                new_objects.add(object);
+                continue;
+            }
+            int closingIndex = object.indexOf("]");
+            String real_object = object.substring(closingIndex+1);
+            switch (object.substring(1, closingIndex)) {
+                case ID_CUSTOM_TAG_COPPER_STAGES:
+                    new_objects.add(real_object);
+                    for (String attachment : COPPER_STAGES)
+                        new_objects.add(attachment + "_" + real_object);
+                    break;
+                case ID_CUSTOM_TAG_COLORED:
+                    for (String color : COLORS)
+                        new_objects.add(String.format(real_object, color));
+                    break;
+            }
+        }
+        return new_objects;
     }
 
     static TaggedObjectsByType readFromFile(String path){
@@ -56,6 +87,7 @@ public class TagFileReader {
             if (!in.hasNext()) break;
 
             List<String> objects = List.of(in.next().trim().split("\\s+"));
+            objects = custom_id_generation(objects);
             switch (word){
                 case ITEMS_CAT:         items.addAll(objects);                              break;
                 case BLOCKS_CAT:        blocks.addAll(objects);                             break;
