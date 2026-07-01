@@ -25,15 +25,17 @@ public class ModDataGenerators {
 
         TagFileReader.TaggedObjectsByType tObT = TagFileReader.readFromFile(CONTAINS_METAL_TXT_PATH);
 
-        // 1. Create the Block Tag Provider
+        // Block Tag Provider
         ModBlockTagGenerator blockTagGenerator = generator.addProvider(event.includeServer(),
                 new ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper, tObT.blocks()));
 
-        // 2. Create the Item Tag Provider
+        // Item Tag Provider
         generator.addProvider(event.includeServer(),
                 new ModItemTagGenerator(packOutput, lookupProvider, blockTagGenerator.contentsGetter(),
                         existingFileHelper, tObT.items()));
 
+        // Entity Tag Provider
+        // TODO
 
     }
 }
