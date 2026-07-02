@@ -9,6 +9,7 @@ import net.minecraft.util.Tuple;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -25,13 +26,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     @SuppressWarnings({"removal"}) // Shuts IntelliJ up!
-    protected void addTags(HolderLookup.Provider pProvider) {
+    protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         TagKey<Block> containsMetal = BlockTags.create(new ResourceLocation("cosmere", "contains_metal"));
         var tag = this.tag(containsMetal).replace(false);
         for(Tuple<String, List<String>> tup : containsMetalTaggedBlocks){
             String modId = tup.getA();
             for (String object_id : tup.getB())
-                tag.addOptionalTag(new ResourceLocation(modId, object_id));
+                tag.addOptional(new ResourceLocation(modId, object_id));
         }
     }
 }

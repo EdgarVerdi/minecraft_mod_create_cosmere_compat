@@ -11,10 +11,10 @@ public class TagFileReader {
     public static final String ENTITY_CAT = "entity";
     public static final Set<String> CATEGORIES = Set.of(ITEMS_CAT, BLOCKS_CAT, ITEM_N_BLOCKS_CAT, ENTITY_CAT);
     public static final String ID_CUSTOM_TAG_COPPER_STAGES = "copper_stages";
-    public static final Set<String> COPPER_STAGES = Set.of(
+    public static final List<String> COPPER_STAGES = List.of(
             "exposed", "weathered", "oxidized", "waxed", "waxed_exposed", "waxed_weathered", "waxed_oxidized");
     public static final String ID_CUSTOM_TAG_COLORED = "colored";
-    public static final Set<String> COLORS = Set.of(
+    public static final List<String> COLORS = List.of(
             "white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan",
             "purple", "blue", "brown", "green", "red", "black");
 
@@ -38,8 +38,9 @@ public class TagFileReader {
         for (String object : objects){
             if (!object.startsWith("[")) {
                 new_objects.add(object);
-                continue;
+                continue; //No custom generation
             }
+            // Custom Generation
             int closingIndex = object.indexOf("]");
             String real_object = object.substring(closingIndex+1);
             switch (object.substring(1, closingIndex)) {
