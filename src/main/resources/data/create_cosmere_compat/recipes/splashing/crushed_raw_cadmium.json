@@ -11,8 +11,8 @@
       "item": "cosmere:cadmium_nugget"
     },
     {
-      "chance": 0.5,
-      "item": "minecraft:quartz"
+      "chance": 0.25,
+      "item": "minecraft:yellow_dye"
     }
   ]
 }

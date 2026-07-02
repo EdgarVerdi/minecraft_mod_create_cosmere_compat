@@ -1,6 +1,6 @@
 - [x] Blast each of the 7 crushed ores
 - [x] Wash each of the 7 crushed ores
-  - [ ] Choose a correct byproduct to each of the 7 splashing recipes with crushed ore
+  - [x] Choose a correct byproduct to each of the 7 splashing recipes with crushed ore
 - [x] Crushed recipes for the new 2 crushed ores
 - [x] Mix each of the other 7 alloys
   - [ ] decide if dust should be allowed for the recipe instead
