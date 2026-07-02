@@ -5,10 +5,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import static me.verdi.create_cosmere_compat.CreateCosmereCompatMod.MOD_ID;
 
 public class ModItems {
-    public static final String MOD_ID = CreateCosmereCompatMod.MOD_ID;
-
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
 

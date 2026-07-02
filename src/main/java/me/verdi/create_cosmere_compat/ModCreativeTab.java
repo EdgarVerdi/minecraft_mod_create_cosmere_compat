@@ -9,12 +9,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
+import static me.verdi.create_cosmere_compat.CreateCosmereCompatMod.MOD_ID;
 import java.util.List;
 
 public class ModCreativeTab {
-    public static final String MOD_ID = CreateCosmereCompatMod.MOD_ID;
-
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
     public static final List<String> CREATE_CRUSHED_ORES = List.of("silver", "tin", "lead", "aluminum", "nickel");

@@ -9,12 +9,11 @@ import net.minecraft.util.Tuple;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
-
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import static me.verdi.create_cosmere_compat.CreateCosmereCompatMod.MOD_ID;
 
 public class ModItemTagGenerator extends net.minecraft.data.tags.ItemTagsProvider {
 
@@ -24,7 +23,7 @@ public class ModItemTagGenerator extends net.minecraft.data.tags.ItemTagsProvide
                                CompletableFuture<TagLookup<Block>> pBlockTags, @Nullable ExistingFileHelper existingFileHelper,
                                List<Tuple<String, List<String>>> containsMetalTaggedItems
     ) {
-        super(pOutput, pLookupProvider, pBlockTags, "create_cosmere_compat", existingFileHelper);
+        super(pOutput, pLookupProvider, pBlockTags, MOD_ID, existingFileHelper);
         this.containsMetalTaggedItems = containsMetalTaggedItems;
     }
 
@@ -33,10 +32,6 @@ public class ModItemTagGenerator extends net.minecraft.data.tags.ItemTagsProvide
     protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         TagKey<Item> containsMetal = ItemTags.create(new ResourceLocation("cosmere", "contains_metal"));
         var tag = this.tag(containsMetal).replace(false);
-        for(Tuple<String, List<String>> tup : containsMetalTaggedItems){
-            String modId = tup.getA();
-            for (String object_id : tup.getB())
-                tag.addOptional(new ResourceLocation(modId, object_id));
-        }
+        ModDataGenerators.addTags(tag, containsMetalTaggedItems);
     }
 }

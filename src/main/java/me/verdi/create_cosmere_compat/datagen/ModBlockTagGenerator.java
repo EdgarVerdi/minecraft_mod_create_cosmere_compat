@@ -14,13 +14,14 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import static me.verdi.create_cosmere_compat.CreateCosmereCompatMod.MOD_ID;
 
 public class ModBlockTagGenerator extends BlockTagsProvider {
     public List<Tuple<String, List<String>>> containsMetalTaggedBlocks;
 
     public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
                                 @Nullable ExistingFileHelper existingFileHelper, List<Tuple<String, List<String>>> containsMetalTaggedBlocks) {
-        super(output, lookupProvider, "create_cosmere_compat", existingFileHelper);
+        super(output, lookupProvider, MOD_ID, existingFileHelper);
         this.containsMetalTaggedBlocks = containsMetalTaggedBlocks;
     }
 
@@ -29,10 +30,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         TagKey<Block> containsMetal = BlockTags.create(new ResourceLocation("cosmere", "contains_metal"));
         var tag = this.tag(containsMetal).replace(false);
-        for(Tuple<String, List<String>> tup : containsMetalTaggedBlocks){
-            String modId = tup.getA();
-            for (String object_id : tup.getB())
-                tag.addOptional(new ResourceLocation(modId, object_id));
-        }
+        ModDataGenerators.addTags(tag, containsMetalTaggedBlocks);
     }
 }
