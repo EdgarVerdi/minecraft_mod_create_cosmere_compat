@@ -3,7 +3,7 @@
   - [x] Choose a correct byproduct to each of the 7 splashing recipes with crushed ore
 - [x] Crushed recipes for the new 2 crushed ores
 - [x] Mix each of the other 7 alloys
-  - [ ] decide if dust should be allowed for the recipe instead
+  - [x] decide if dust should be allowed for the recipe instead (nah)
 - [x] Poison cosmere blend recipes
   - [x] decide if dust should be removed too or not (was kept)
 - [x] Stop cosmere zinc from spawning in the world

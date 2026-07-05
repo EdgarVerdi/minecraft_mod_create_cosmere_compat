@@ -91,7 +91,8 @@ minecraft {
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
             args '--nogui'
-                //property("mixin.env.remapRefMap", "true")
+            property('mixin.env.disableRefMap', 'true')
+            //property("mixin.env.remapRefMap", "true")
             //property("mixin.env.refMapRemappingFile", "${projectDir}/build/createSrgToMcp/output.srg")
         }
 

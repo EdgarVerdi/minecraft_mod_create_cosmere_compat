@@ -20,6 +20,7 @@ public class ModCreativeTab {
     @SuppressWarnings({"removal"}) // Shuts IntelliJ up!
     public static final RegistryObject<CreativeModeTab> MOD_TAB = CREATIVE_MODE_TABS.register("create_cosmere_compat_tab", () -> CreativeModeTab.builder()
             .icon(() -> ModItems.CRUSHED_CADMIUM.get().getDefaultInstance())
+            .title(net.minecraft.network.chat.Component.translatable("creativetab.create_cosmere_compat_tab"))
             .displayItems((parameters, output) -> {
                 // Add my crushed ores
                 ModItems.ITEMS.getEntries().forEach(item -> output.accept(item.get()));
