@@ -8,3 +8,4 @@
   - [x] decide if dust should be removed too or not (was kept)
 - [x] Stop cosmere zinc from spawning in the world
 - [x] Add contains metal to all cosmere blocks that apply
+- [ ] Add a description in gradle.properties whenever

@@ -1,3 +1,8 @@
+:create_cosmere_compat:
+    :items:
+        crushed_raw_cadmium
+        crushed_raw_chromium
+
 :create:
     :items:
         wrench
@@ -225,8 +230,3 @@
         powered_shaft
         encased_fluid_pipe
         [colored]%s_sail
-
-:create_cosmere_compat:
-    :items:
-        crushed_raw_cadmium
-        crushed_raw_chromium

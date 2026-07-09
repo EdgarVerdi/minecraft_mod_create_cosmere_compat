@@ -1,6 +1,14 @@
 {
   "values": [
     {
+      "id": "create_cosmere_compat:crushed_raw_cadmium",
+      "required": false
+    },
+    {
+      "id": "create_cosmere_compat:crushed_raw_chromium",
+      "required": false
+    },
+    {
       "id": "create:wrench",
       "required": false
     },
@@ -1194,14 +1202,6 @@
     },
     {
       "id": "create:weathered_iron_window_pane",
-      "required": false
-    },
-    {
-      "id": "create_cosmere_compat:crushed_raw_cadmium",
-      "required": false
-    },
-    {
-      "id": "create_cosmere_compat:crushed_raw_chromium",
       "required": false
     }
   ]
