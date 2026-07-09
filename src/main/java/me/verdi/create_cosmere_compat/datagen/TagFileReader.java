@@ -87,7 +87,7 @@ public class TagFileReader {
             }
             if (!in.hasNext()) break;
 
-            List<String> objects = List.of(in.next().trim().split("\\s+"));
+            List<String> objects = List.of(in.next().replaceFirst("#.*", "").trim().split("\\s+"));
             objects = custom_id_generation(objects);
             switch (word){
                 case ITEMS_CAT:         items.addAll(objects);                              break;

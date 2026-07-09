@@ -18,7 +18,7 @@ import java.util.concurrent.CompletableFuture;
 @Mod.EventBusSubscriber(modid = "create_cosmere_compat", bus = Mod.EventBusSubscriber.Bus.MOD) // Put your Mod ID here
 public class ModDataGenerators {
 
-    public static final String CONTAINS_METAL_TXT_PATH = "src/main/resources/verdi_data/contains_metal.txt";
+    public static final String CONTAINS_METAL_TXT_PATH = "src/main/resources/verdi_data/contains_metal.vmc";
 
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
