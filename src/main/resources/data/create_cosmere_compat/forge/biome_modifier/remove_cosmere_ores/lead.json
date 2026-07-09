@@ -1,0 +1,16 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "cosmere:ore_lead_deep",
+    "cosmere:ore_lead_middle",
+    "cosmere:ore_lead_upper"
+  ],
+  "steps": "underground_ores",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfmg"
+    }
+  ]
+}

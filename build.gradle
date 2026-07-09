@@ -150,10 +150,13 @@ dependencies {
     implementation fg.deobf("curse.maven:cosmere-475343:8218445")
     implementation fg.deobf("curse.maven:allomancer-678468:8218448")
 
-    //JEI remove afterwards
+    //JEI
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.20.0.132")
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.20.0.132")
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.20.0.132")
+
+    //Other Create Addons
+    implementation fg.deobf("curse.maven:create-industry-693815:7344584")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -25,5 +25,14 @@
       "count": 4,
       "item": "cosmere:steel_ingot"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "tfmg"
+      }
+    }
   ]
 }
