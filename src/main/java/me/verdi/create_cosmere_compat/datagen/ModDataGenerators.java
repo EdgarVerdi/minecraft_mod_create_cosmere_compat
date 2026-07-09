@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 // Tells Forge this class listens for Mod startup events
-@Mod.EventBusSubscriber(modid = "create_cosmere_compat", bus = Mod.EventBusSubscriber.Bus.MOD) // Put your Mod ID here
+@Mod.EventBusSubscriber(modid = "create_cosmere_compat", bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModDataGenerators {
 
     public static final String CONTAINS_METAL_TXT_PATH = "src/main/resources/verdi_data/contains_metal.vmc";
@@ -41,6 +41,9 @@ public class ModDataGenerators {
         // Entity Tag Provider
         generator.addProvider(event.includeServer(),
                 new ModEntityTagGenerator(packOutput, lookupProvider, existingFileHelper, tObT.entities()));
+
+        //Recipes provider
+        generator.addProvider(event.includeServer(), new ModRecipeGenerator(packOutput));
 
     }
 

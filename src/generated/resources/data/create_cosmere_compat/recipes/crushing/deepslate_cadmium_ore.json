@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "cosmere:deepslate_cadmium_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 2,
+      "item": "create_cosmere_compat:crushed_raw_cadmium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create_cosmere_compat:crushed_raw_cadmium"
+    },
+    {
+      "chance": 0.75,
+      "count": 2,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:deepslate"
+    }
+  ]
+}

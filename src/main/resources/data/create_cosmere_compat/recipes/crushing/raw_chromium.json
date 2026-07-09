@@ -1,14 +1,5 @@
 {
   "type": "create:crushing",
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:raw_materials/chromium"
-      }
-    }
-  ],
   "ingredients": [
     {
       "tag": "forge:raw_materials/chromium"

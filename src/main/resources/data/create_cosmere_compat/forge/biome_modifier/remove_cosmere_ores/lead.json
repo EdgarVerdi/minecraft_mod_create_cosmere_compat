@@ -3,11 +3,11 @@
   "biomes": "#minecraft:is_overworld",
   "features": [
     "cosmere:ore_lead_deep",
-    "cosmere:ore_lead_middle",
-    "cosmere:ore_lead_upper"
+    "cosmere:ore_lead_normal",
+    "cosmere:ore_lead_abundant"
   ],
   "steps": "underground_ores",
-  "conditions": [
+  "forge:conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "tfmg"
