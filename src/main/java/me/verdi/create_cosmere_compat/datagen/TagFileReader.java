@@ -1,7 +1,7 @@
 package me.verdi.create_cosmere_compat.datagen;
 
 import net.minecraft.util.Tuple;
-import java.nio.file.Paths;
+import java.io.File;
 import java.util.*;
 
 public class TagFileReader {
@@ -58,45 +58,71 @@ public class TagFileReader {
         return new_objects;
     }
 
-    static TaggedObjectsByType readFromFile(String path){
+    static List<File> listFilesForFolder(String folder_path) {
+        List<File> ret = new ArrayList<>();
+        listFilesForFolder(new File("../"+folder_path), ret);
+        return ret;
+    }
+
+    static void listFilesForFolder(final File folder, List<File> filesConsumer) {
+        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
+            if (fileEntry.isDirectory())
+                listFilesForFolder(fileEntry, filesConsumer);
+            else
+                filesConsumer.add(fileEntry);
+        }
+    }
+
+    static TaggedObjectsByType readFromFile(String folder_path){
         TaggedObjectsByType ret = new TaggedObjectsByType(new ArrayList<>(), new ArrayList<>(), new ArrayList<>());
         Scanner in;
-        try {
-            in = new Scanner(Paths.get("../"+path));
-            in.useDelimiter(":");
-        } catch (Exception e) {
-            System.out.println("Could not read text file!");
-            return ret;
-        }
-
-        String modId = "minecraft";
-        List<String> items = new ArrayList<>();
-        List<String> blocks = new ArrayList<>();
-        List<String> entities = new ArrayList<>();
-        while (in.hasNext()) {
-            String word = in.next().trim();
-            if (word.isEmpty()) continue;
-
-            if (!CATEGORIES.contains(word)){
-                ret.add(modId, items, blocks, entities);
-                items = new ArrayList<>();
-                blocks = new ArrayList<>();
-                entities = new ArrayList<>();
-                modId = word;
-                continue;
+        for (File path : listFilesForFolder(folder_path)) {
+            try {
+                in = new Scanner(path);
+                in.useDelimiter(":");
+            } catch (Exception e) {
+                System.out.println("Could not read text file!");
+                return ret;
             }
-            if (!in.hasNext()) break;
 
-            List<String> objects = List.of(in.next().replaceFirst("#.*", "").trim().split("\\s+"));
-            objects = custom_id_generation(objects);
-            switch (word){
-                case ITEMS_CAT:         items.addAll(objects);                              break;
-                case BLOCKS_CAT:        blocks.addAll(objects);                             break;
-                case ENTITY_CAT:        entities.addAll(objects);                           break;
-                case ITEM_N_BLOCKS_CAT: items.addAll(objects);  blocks.addAll(objects);     break;
+            String modId = "minecraft";
+            List<String> items = new ArrayList<>();
+            List<String> blocks = new ArrayList<>();
+            List<String> entities = new ArrayList<>();
+            while (in.hasNext()) {
+                String word = in.next().trim();
+                if (word.isEmpty()) continue;
+
+                if (!CATEGORIES.contains(word)) {
+                    ret.add(modId, items, blocks, entities);
+                    items = new ArrayList<>();
+                    blocks = new ArrayList<>();
+                    entities = new ArrayList<>();
+                    modId = word;
+                    continue;
+                }
+                if (!in.hasNext()) break;
+
+                List<String> objects = List.of(in.next().replaceFirst("#.*", "").trim().split("\\s+"));
+                objects = custom_id_generation(objects);
+                switch (word) {
+                    case ITEMS_CAT:
+                        items.addAll(objects);
+                        break;
+                    case BLOCKS_CAT:
+                        blocks.addAll(objects);
+                        break;
+                    case ENTITY_CAT:
+                        entities.addAll(objects);
+                        break;
+                    case ITEM_N_BLOCKS_CAT:
+                        items.addAll(objects);
+                        blocks.addAll(objects);
+                        break;
+                }
             }
+            ret.add(modId, items, blocks, entities);
         }
-        ret.add(modId, items, blocks, entities);
         return ret;
     }
 }

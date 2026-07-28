@@ -1203,6 +1203,10 @@
     {
       "id": "create:weathered_iron_window_pane",
       "required": false
+    },
+    {
+      "id": "tfmg:simple_engine_cylinder",
+      "required": false
     }
   ]
 }
