@@ -229,3 +229,5 @@
         powered_shaft
         encased_fluid_pipe
         [colored]%s_sail
+    :entities:
+        stationary_contraption

@@ -1,0 +1,59 @@
+# Just Aluminum
+:tfmg:
+    :items:
+        aluminum_ingot
+        aluminum_sheet
+        aluminum_nugget
+        aluminum_wire
+        p_semiconductor
+        engine_cylinder
+        diesel_cylinder
+        aluminum_spool
+        thermite_grenade
+    :block_and_items:
+        aluminum_fluid_tank
+        aluminum_block
+        aluminum_door
+
+# Aluminum AND metal
+
+:tfmg:
+    :items:
+        thermite_powder
+        bauxite_powder # idk
+        lithium_charge
+        turbo
+        centrifuge
+        crankshaft
+        transmission
+        oil_hammer
+        [tools]aluminum
+        lithium_blade
+        lit_lithium_blade
+        flamethrower
+        fire_extinguisher
+        electricians_wrench
+        zinc_grenade
+        copper_grenade
+    :block_and_items:
+        turbine_engine
+        large_engine
+        aluminum_cable_hub
+        accumulator
+        aluminum_lamp
+        electric_diode
+        voltage_observer
+        rotor
+        stator
+        segmented_display
+        aluminum_cogwheel
+        large_aluminum_cogwheel
+        industrial_aluminum_casing
+        steel_encased_aluminum_cogwheel
+        heavy_casing_encased_aluminum_cogwheel
+        steel_encased_large_aluminum_cogwheel
+        heavy_casing_encased_large_aluminum_cogwheel
+        aluminum_bars
+        aluminum_ladder
+        aluminum_scaffolding
+        lithium_torch

@@ -8,7 +8,7 @@ public class TagFileReader {
     public static final String ITEMS_CAT = "items";
     public static final String BLOCKS_CAT = "blocks";
     public static final String ITEM_N_BLOCKS_CAT = "block_and_items";
-    public static final String ENTITY_CAT = "entity";
+    public static final String ENTITY_CAT = "entities";
     public static final Set<String> CATEGORIES = Set.of(ITEMS_CAT, BLOCKS_CAT, ITEM_N_BLOCKS_CAT, ENTITY_CAT);
     public static final String ID_CUSTOM_TAG_COPPER_STAGES = "copper_stages";
     public static final List<String> COPPER_STAGES = List.of(
@@ -17,6 +17,11 @@ public class TagFileReader {
     public static final List<String> COLORS = List.of(
             "white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan",
             "purple", "blue", "brown", "green", "red", "black");
+    public static final String ID_CUSTOM_TAG_ARMOR = "armor";
+    public static final List<String> ARMOR_PIECES = List.of("helmet", "chestplate", "leggings", "boots");
+    public static final String ID_CUSTOM_TAG_TOOLS = "tools";
+    public static final List<String> TOOLS  = List.of("sword", "pickaxe", "axe", "shovel", "hoe");
+
 
     public record TaggedObjectsByType(
             List<Tuple<String, List<String>>> items,
@@ -53,6 +58,12 @@ public class TagFileReader {
                     for (String color : COLORS)
                         new_objects.add(String.format(real_object, color));
                     break;
+                case ID_CUSTOM_TAG_ARMOR:
+                    for (String armor_piece : ARMOR_PIECES)
+                        new_objects.add(real_object+"_"+armor_piece);
+                case ID_CUSTOM_TAG_TOOLS:
+                    for (String tool : TOOLS)
+                        new_objects.add(real_object+"_"+tool);
             }
         }
         return new_objects;

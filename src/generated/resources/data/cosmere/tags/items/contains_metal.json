@@ -1205,7 +1205,827 @@
       "required": false
     },
     {
+      "id": "tfmg:regular_engine",
+      "required": false
+    },
+    {
+      "id": "tfmg:radial_engine",
+      "required": false
+    },
+    {
+      "id": "tfmg:simple_large_engine",
+      "required": false
+    },
+    {
+      "id": "tfmg:engine_gearbox",
+      "required": false
+    },
+    {
+      "id": "tfmg:engine_controller",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_distillation_output",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_distillation_controller",
+      "required": false
+    },
+    {
+      "id": "tfmg:industrial_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:pumpjack_hammer",
+      "required": false
+    },
+    {
+      "id": "tfmg:pumpjack_crank",
+      "required": false
+    },
+    {
+      "id": "tfmg:pumpjack_hammer_part",
+      "required": false
+    },
+    {
+      "id": "tfmg:pumpjack_hammer_head",
+      "required": false
+    },
+    {
+      "id": "tfmg:pumpjack_hammer_connector",
+      "required": false
+    },
+    {
+      "id": "tfmg:large_pumpjack_hammer_part",
+      "required": false
+    },
+    {
+      "id": "tfmg:large_pumpjack_hammer_head",
+      "required": false
+    },
+    {
+      "id": "tfmg:large_pumpjack_hammer_connector",
+      "required": false
+    },
+    {
+      "id": "tfmg:pumpjack_base",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_chemical_vat",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_chemical_vat",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_chemical_vat",
+      "required": false
+    },
+    {
+      "id": "tfmg:fireproof_chemical_vat",
+      "required": false
+    },
+    {
+      "id": "tfmg:industrial_mixer",
+      "required": false
+    },
+    {
+      "id": "tfmg:electrode_holder",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:deepslate_lead_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:deepslate_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:lithium_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:deepslate_lithium_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:raw_nickel_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:raw_lead_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:raw_lithium_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:air_intake",
+      "required": false
+    },
+    {
+      "id": "tfmg:firebox",
+      "required": false
+    },
+    {
+      "id": "tfmg:winding_machine",
+      "required": false
+    },
+    {
+      "id": "tfmg:surface_scanner",
+      "required": false
+    },
+    {
+      "id": "tfmg:machine_input",
+      "required": false
+    },
+    {
+      "id": "tfmg:concrete_hose",
+      "required": false
+    },
+    {
+      "id": "tfmg:blast_furnace_output",
+      "required": false
+    },
+    {
+      "id": "tfmg:blast_furnace_hatch",
+      "required": false
+    },
+    {
+      "id": "tfmg:blast_furnace_reinforcement",
+      "required": false
+    },
+    {
+      "id": "tfmg:rusted_blast_furnace_reinforcement",
+      "required": false
+    },
+    {
+      "id": "tfmg:coke_oven",
+      "required": false
+    },
+    {
+      "id": "tfmg:blast_stove",
+      "required": false
+    },
+    {
+      "id": "tfmg:casting_basin",
+      "required": false
+    },
+    {
+      "id": "tfmg:generator",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_generator",
+      "required": false
+    },
+    {
+      "id": "tfmg:cable_connector",
+      "required": false
+    },
+    {
+      "id": "tfmg:glass_cable_insulator",
+      "required": false
+    },
+    {
+      "id": "tfmg:resistor",
+      "required": false
+    },
+    {
+      "id": "tfmg:copycat_cable_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:brass_cable_hub",
+      "required": false
+    },
+    {
+      "id": "tfmg:copper_cable_hub",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_cable_hub",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_casing_cable_hub",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_cable_hub",
+      "required": false
+    },
+    {
+      "id": "tfmg:cable_tube",
+      "required": false
+    },
+    {
+      "id": "tfmg:electric_post",
+      "required": false
+    },
+    {
+      "id": "tfmg:diagonal_cable_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:electric_motor",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_electric_motor",
+      "required": false
+    },
+    {
+      "id": "tfmg:creative_generator",
+      "required": false
+    },
+    {
+      "id": "tfmg:gas_lamp",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_bulb",
+      "required": false
+    },
+    {
+      "id": "tfmg:circular_light",
+      "required": false
+    },
+    {
+      "id": "tfmg:modern_light",
+      "required": false
+    },
+    {
+      "id": "tfmg:neon_tube",
+      "required": false
+    },
+    {
+      "id": "tfmg:potentiometer",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_potentiometer",
+      "required": false
+    },
+    {
+      "id": "tfmg:electrical_switch",
+      "required": false
+    },
+    {
+      "id": "tfmg:electric_pump",
+      "required": false
+    },
+    {
+      "id": "tfmg:voltmeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:polarizer",
+      "required": false
+    },
+    {
+      "id": "tfmg:traffic_light",
+      "required": false
+    },
+    {
+      "id": "tfmg:transformer",
+      "required": false
+    },
+    {
+      "id": "tfmg:converter",
+      "required": false
+    },
+    {
+      "id": "tfmg:brick_smokestack",
+      "required": false
+    },
+    {
+      "id": "tfmg:metal_smokestack",
+      "required": false
+    },
+    {
+      "id": "tfmg:concrete_smokestack",
+      "required": false
+    },
+    {
+      "id": "tfmg:exhaust",
+      "required": false
+    },
+    {
+      "id": "tfmg:flarestack",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_cogwheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:large_steel_cogwheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_casing",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_machinery_casing",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:lithium_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_casing_door",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_door",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_plated_door",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_ingot",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_ingot",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_plate",
+      "required": false
+    },
+    {
+      "id": "tfmg:unprocessed_heavy_plate",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_sheet",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_sheet",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_sheet",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_ingot",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_ingot",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_ingot",
+      "required": false
+    },
+    {
+      "id": "tfmg:lithium_ingot",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_nugget",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_nugget",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_nugget",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_nugget",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_nugget",
+      "required": false
+    },
+    {
+      "id": "tfmg:lithium_nugget",
+      "required": false
+    },
+    {
+      "id": "tfmg:raw_lead",
+      "required": false
+    },
+    {
+      "id": "tfmg:raw_nickel",
+      "required": false
+    },
+    {
+      "id": "tfmg:raw_lithium",
+      "required": false
+    },
+    {
+      "id": "tfmg:crushed_raw_lithium",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar",
+      "required": false
+    },
+    {
+      "id": "tfmg:copper_wire",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_wire",
+      "required": false
+    },
+    {
+      "id": "tfmg:spark_plug",
+      "required": false
+    },
+    {
+      "id": "tfmg:screw",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_mechanism",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_steel_mechanism",
+      "required": false
+    },
+    {
+      "id": "tfmg:magnetic_alloy_ingot",
+      "required": false
+    },
+    {
+      "id": "tfmg:coated_circuit_board",
+      "required": false
+    },
+    {
+      "id": "tfmg:etched_circuit_board",
+      "required": false
+    },
+    {
+      "id": "tfmg:circuit_board",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_circuit_board",
+      "required": false
+    },
+    {
+      "id": "tfmg:transistor_item",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_transistor",
+      "required": false
+    },
+    {
+      "id": "tfmg:capacitor_item",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_capacitor",
+      "required": false
+    },
+    {
+      "id": "tfmg:copper_sulfate",
+      "required": false
+    },
+    {
+      "id": "tfmg:golden_turbo",
+      "required": false
+    },
+    {
+      "id": "tfmg:mixer_blade",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_electromagnetic_coil",
+      "required": false
+    },
+    {
+      "id": "tfmg:copper_electrode",
+      "required": false
+    },
+    {
+      "id": "tfmg:zinc_electrode",
+      "required": false
+    },
+    {
+      "id": "tfmg:glass_insulator_segment",
+      "required": false
+    },
+    {
+      "id": "tfmg:magnet",
+      "required": false
+    },
+    {
+      "id": "tfmg:unfinished_resistor",
+      "required": false
+    },
+    {
       "id": "tfmg:simple_engine_cylinder",
+      "required": false
+    },
+    {
+      "id": "tfmg:turbine_blade",
+      "required": false
+    },
+    {
+      "id": "tfmg:copper_spool",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_spool",
+      "required": false
+    },
+    {
+      "id": "tfmg:electromagnetic_coil",
+      "required": false
+    },
+    {
+      "id": "tfmg:screwdriver",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_helmet",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_chestplate",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_leggings",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_boots",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_sword",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_axe",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_shovel",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_hoe",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_sword",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_axe",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_shovel",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_hoe",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_sword",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_pickaxe",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_axe",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_shovel",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_hoe",
+      "required": false
+    },
+    {
+      "id": "tfmg:advanced_potato_cannon",
+      "required": false
+    },
+    {
+      "id": "tfmg:white_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:orange_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:magenta_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_blue_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:yellow_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:lime_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:pink_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:gray_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_gray_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:cyan_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:purple_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:blue_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:brown_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:green_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:red_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:black_multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:multimeter",
+      "required": false
+    },
+    {
+      "id": "tfmg:quad_potato_cannon",
+      "required": false
+    },
+    {
+      "id": "tfmg:pipe_bomb",
+      "required": false
+    },
+    {
+      "id": "tfmg:oil_can",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_gearbox",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_vertical_gearbox",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_encased_shaft",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_casing_encased_shaft",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_encased_steel_cogwheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_casing_encased_steel_cogwheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_encased_large_steel_cogwheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_casing_encased_large_steel_cogwheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_bars",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_bars",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_bars",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_bars",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_ladder",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_ladder",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_ladder",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_ladder",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_ladder",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_scaffolding",
       "required": false
     }
   ]

@@ -1,3 +1,8 @@
 {
-  "values": []
+  "values": [
+    {
+      "id": "create:stationary_contraption",
+      "required": false
+    }
+  ]
 }

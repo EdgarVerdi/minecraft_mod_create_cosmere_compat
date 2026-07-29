@@ -6,12 +6,15 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.IntrinsicHolderTagsProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Tuple;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 // Tells Forge this class listens for Mod startup events
@@ -19,6 +22,19 @@ import java.util.concurrent.CompletableFuture;
 public class ModDataGenerators {
 
     public static final String CONTAINS_METAL_FOLDER_PATH = "src/main/resources/verdi_data/contains_metal";
+
+    public static void printAllItemsOfMod(String mod_id){
+        List<Item> modItems = ForgeRegistries.ITEMS.getEntries().stream()
+                .filter(entry -> entry.getKey().location().getNamespace().equals(mod_id))
+                .map(Map.Entry::getValue)
+                .toList();
+
+        for(Item item : modItems) {
+            ResourceLocation id = ForgeRegistries.ITEMS.getKey(item);
+            assert id != null;
+            System.out.println(id.getPath());
+        }
+    }
 
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
@@ -45,6 +61,7 @@ public class ModDataGenerators {
         //Recipes provider
         generator.addProvider(event.includeServer(), new ModRecipeGenerator(packOutput));
 
+        printAllItemsOfMod("tfmg");
     }
 
     @SuppressWarnings({"removal"}) // Shuts IntelliJ up!
