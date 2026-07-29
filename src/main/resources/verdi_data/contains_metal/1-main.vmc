@@ -1,8 +1,3 @@
-:create_cosmere_compat:
-    :items:
-        crushed_raw_cadmium
-        crushed_raw_chromium
-
 :create:
     :items:
         wrench
@@ -42,6 +37,10 @@
         crushed_raw_quicksilver
         crushed_raw_uranium
         crushed_raw_nickel
+:create_cosmere_compat: :items:
+        crushed_raw_cadmium
+        crushed_raw_chromium
+:create:                :items:
         goggles
         super_glue
         minecart_coupling

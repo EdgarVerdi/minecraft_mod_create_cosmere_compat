@@ -1,14 +1,6 @@
 {
   "values": [
     {
-      "id": "create_cosmere_compat:crushed_raw_cadmium",
-      "required": false
-    },
-    {
-      "id": "create_cosmere_compat:crushed_raw_chromium",
-      "required": false
-    },
-    {
       "id": "create:wrench",
       "required": false
     },
@@ -154,6 +146,14 @@
     },
     {
       "id": "create:crushed_raw_nickel",
+      "required": false
+    },
+    {
+      "id": "create_cosmere_compat:crushed_raw_cadmium",
+      "required": false
+    },
+    {
+      "id": "create_cosmere_compat:crushed_raw_chromium",
       "required": false
     },
     {
