@@ -21,7 +21,10 @@ public class TagFileReader {
     public static final List<String> ARMOR_PIECES = List.of("helmet", "chestplate", "leggings", "boots");
     public static final String ID_CUSTOM_TAG_TOOLS = "tools";
     public static final List<String> TOOLS  = List.of("sword", "pickaxe", "axe", "shovel", "hoe");
-
+    public static final String ID_CUTS = "cuts";
+    public static final List<String> CUTS  = List.of("slab", "stairs");
+    public static final String ID_CUTS_PLUS = "cuts+";
+    public static final List<String> CUTS_PLUS  = List.of("slab", "stairs", "wall");
 
     public record TaggedObjectsByType(
             List<Tuple<String, List<String>>> items,
@@ -38,6 +41,38 @@ public class TagFileReader {
         }
     }
 
+    static void custom_id_generation(String real_object, String change_id, List<String> return_objects){
+        switch (change_id) {
+            case ID_CUSTOM_TAG_COPPER_STAGES:
+                return_objects.add(real_object);
+                for (String attachment : COPPER_STAGES)
+                    return_objects.add(attachment + "_" + real_object);
+                break;
+            case ID_CUSTOM_TAG_COLORED:
+                for (String color : COLORS)
+                    return_objects.add(String.format(real_object, color));
+                break;
+            case ID_CUSTOM_TAG_ARMOR:
+                for (String armor_piece : ARMOR_PIECES)
+                    return_objects.add(real_object+"_"+armor_piece);
+                break;
+            case ID_CUSTOM_TAG_TOOLS:
+                for (String tool : TOOLS)
+                    return_objects.add(real_object+"_"+tool);
+                break;
+            case ID_CUTS:
+                return_objects.add(real_object);
+                for (String cut : CUTS)
+                    return_objects.add(real_object+"_"+cut);
+                break;
+            case ID_CUTS_PLUS:
+                return_objects.add(real_object);
+                for (String cut : CUTS_PLUS)
+                    return_objects.add(real_object+"_"+cut);
+                break;
+        }
+    }
+
     static List<String> custom_id_generation(List<String> objects){
         List<String> new_objects = new ArrayList<>();
         for (String object : objects){
@@ -47,24 +82,16 @@ public class TagFileReader {
             }
             // Custom Generation
             int closingIndex = object.indexOf("]");
-            String real_object = object.substring(closingIndex+1);
-            switch (object.substring(1, closingIndex)) {
-                case ID_CUSTOM_TAG_COPPER_STAGES:
-                    new_objects.add(real_object);
-                    for (String attachment : COPPER_STAGES)
-                        new_objects.add(attachment + "_" + real_object);
-                    break;
-                case ID_CUSTOM_TAG_COLORED:
-                    for (String color : COLORS)
-                        new_objects.add(String.format(real_object, color));
-                    break;
-                case ID_CUSTOM_TAG_ARMOR:
-                    for (String armor_piece : ARMOR_PIECES)
-                        new_objects.add(real_object+"_"+armor_piece);
-                case ID_CUSTOM_TAG_TOOLS:
-                    for (String tool : TOOLS)
-                        new_objects.add(real_object+"_"+tool);
+            List<String> real_objects = List.of(object.substring(closingIndex+1));
+            String[] change_ids =  object.substring(1, closingIndex).split(",");
+            for (int i = change_ids.length-1; i>0; i--) {
+                List<String> ret_objects = new ArrayList<>();
+                for (String real_object : real_objects)
+                    custom_id_generation(real_object, change_ids[i], ret_objects);
+                real_objects = ret_objects;
             }
+            for (String real_object : real_objects)
+                custom_id_generation(real_object, change_ids[0], new_objects);
         }
         return new_objects;
     }

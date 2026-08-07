@@ -57,3 +57,8 @@
         aluminum_ladder
         aluminum_scaffolding
         lithium_torch
+        [cuts+]factory_floor
+        aluminum_flywheel
+        aluminum_truss
+        aluminum_frame
+        [colored]%s_caution_block

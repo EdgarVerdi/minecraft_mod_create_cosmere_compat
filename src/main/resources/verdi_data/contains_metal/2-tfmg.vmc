@@ -177,3 +177,32 @@
         nickel_ladder
         constantan_ladder
         steel_scaffolding
+        steel_trapdoor
+        steel_flywheel
+        lead_flywheel
+        cast_iron_flywheel
+        nickel_flywheel
+        steel_truss
+        steel_frame
+        cast_iron_truss
+        cast_iron_frame
+        lead_truss
+        lead_frame
+        nickel_truss
+        nickel_frame
+        constantan_truss
+        constantan_frame
+        copper_truss
+        copper_frame
+        zinc_truss
+        zinc_frame
+        brass_truss
+        brass_frame
+        rebar_block
+        rebar_floor
+        rebar_wall
+        rebar_pile
+        rebar_stairs
+        rebar_pillar
+        [cuts+]rebar_concrete
+        [cuts+,colored]%s_rebar_concrete

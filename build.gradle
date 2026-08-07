@@ -147,8 +147,10 @@ dependencies {
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.14.1+1.20.1")
 
     //Cosmere
-    implementation fg.deobf("curse.maven:cosmere-475343:8218445")
-    implementation fg.deobf("curse.maven:allomancer-678468:8218448")
+    implementation fg.deobf("curse.maven:cosmere-475343:8342760") // MAIN
+    //implementation fg.deobf("curse.maven:cosmere-475343:8342762") // API
+    implementation fg.deobf("curse.maven:allomancer-678468:8342764")
+    implementation fg.deobf("curse.maven:feruchemist-678466:8342765")
 
     //JEI
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.20.0.132")

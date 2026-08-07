@@ -1833,26 +1833,6 @@
       "required": false
     },
     {
-      "id": "tfmg:steel_sword",
-      "required": false
-    },
-    {
-      "id": "tfmg:steel_pickaxe",
-      "required": false
-    },
-    {
-      "id": "tfmg:steel_axe",
-      "required": false
-    },
-    {
-      "id": "tfmg:steel_shovel",
-      "required": false
-    },
-    {
-      "id": "tfmg:steel_hoe",
-      "required": false
-    },
-    {
       "id": "tfmg:lead_sword",
       "required": false
     },
@@ -2026,6 +2006,386 @@
     },
     {
       "id": "tfmg:steel_scaffolding",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_flywheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_flywheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_flywheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_flywheel",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:lead_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:constantan_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:copper_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:copper_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:zinc_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:zinc_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:brass_truss",
+      "required": false
+    },
+    {
+      "id": "tfmg:brass_frame",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_block",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_floor",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_pile",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_pillar",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:white_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:white_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:white_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:white_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:orange_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:orange_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:orange_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:orange_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:magenta_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:magenta_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:magenta_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:magenta_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_blue_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_blue_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_blue_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_blue_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:yellow_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:yellow_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:yellow_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:yellow_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:lime_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:lime_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:lime_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:lime_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:pink_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:pink_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:pink_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:pink_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:gray_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:gray_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:gray_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:gray_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_gray_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_gray_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_gray_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:light_gray_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:cyan_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:cyan_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:cyan_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:cyan_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:purple_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:purple_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:purple_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:purple_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:blue_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:blue_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:blue_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:blue_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:brown_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:brown_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:brown_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:brown_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:green_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:green_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:green_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:green_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:red_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:red_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:red_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:red_rebar_concrete_wall",
+      "required": false
+    },
+    {
+      "id": "tfmg:black_rebar_concrete",
+      "required": false
+    },
+    {
+      "id": "tfmg:black_rebar_concrete_slab",
+      "required": false
+    },
+    {
+      "id": "tfmg:black_rebar_concrete_stairs",
+      "required": false
+    },
+    {
+      "id": "tfmg:black_rebar_concrete_wall",
       "required": false
     }
   ]
