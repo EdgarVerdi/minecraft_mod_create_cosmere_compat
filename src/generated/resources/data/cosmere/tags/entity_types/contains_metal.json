@@ -3,6 +3,30 @@
     {
       "id": "create:stationary_contraption",
       "required": false
+    },
+    {
+      "id": "tfmg:copper_grenade",
+      "required": false
+    },
+    {
+      "id": "tfmg:zinc_grenade",
+      "required": false
+    },
+    {
+      "id": "tfmg:blue_spark",
+      "required": false
+    },
+    {
+      "id": "tfmg:green_spark",
+      "required": false
+    },
+    {
+      "id": "tfmg:lithium_spark",
+      "required": false
+    },
+    {
+      "id": "tfmg:pipe_bomb",
+      "required": false
     }
   ]
 }

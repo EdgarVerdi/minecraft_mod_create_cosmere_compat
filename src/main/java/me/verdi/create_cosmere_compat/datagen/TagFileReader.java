@@ -25,6 +25,8 @@ public class TagFileReader {
     public static final List<String> CUTS  = List.of("slab", "stairs");
     public static final String ID_CUTS_PLUS = "cuts+";
     public static final List<String> CUTS_PLUS  = List.of("slab", "stairs", "wall");
+    public static final String ID_PRODUCT = "product";
+
 
     public record TaggedObjectsByType(
             List<Tuple<String, List<String>>> items,
@@ -42,7 +44,8 @@ public class TagFileReader {
     }
 
     static void custom_id_generation(String real_object, String change_id, List<String> return_objects){
-        switch (change_id) {
+        String[] change_params = change_id.split(":");
+        switch (change_params[0]) {
             case ID_CUSTOM_TAG_COPPER_STAGES:
                 return_objects.add(real_object);
                 for (String attachment : COPPER_STAGES)
@@ -70,6 +73,17 @@ public class TagFileReader {
                 for (String cut : CUTS_PLUS)
                     return_objects.add(real_object+"_"+cut);
                 break;
+            case ID_PRODUCT:
+                String[] parts = real_object.split(";");
+                List<String> ret_objects = List.of(parts[0].split(","));
+                for (int i = 1; i < parts.length; i++) {
+                    List<String> next_objects = new ArrayList<>();
+                    for (String obj : ret_objects)
+                        for (String word : parts[i].split(","))
+                            next_objects.add(obj + "_" + word);
+                    ret_objects = next_objects;
+                }
+                return_objects.addAll(ret_objects);
         }
     }
 
@@ -83,7 +97,9 @@ public class TagFileReader {
             // Custom Generation
             int closingIndex = object.indexOf("]");
             List<String> real_objects = List.of(object.substring(closingIndex+1));
-            String[] change_ids =  object.substring(1, closingIndex).split(",");
+            String[] change_ids =  object.substring(1, closingIndex).split(";");
+            for (int i = 0; i < change_ids.length; i++)
+                change_ids[i] = change_ids[i].trim();
             for (int i = change_ids.length-1; i>0; i--) {
                 List<String> ret_objects = new ArrayList<>();
                 for (String real_object : real_objects)

@@ -182,22 +182,7 @@
         lead_flywheel
         cast_iron_flywheel
         nickel_flywheel
-        steel_truss
-        steel_frame
-        cast_iron_truss
-        cast_iron_frame
-        lead_truss
-        lead_frame
-        nickel_truss
-        nickel_frame
-        constantan_truss
-        constantan_frame
-        copper_truss
-        copper_frame
-        zinc_truss
-        zinc_frame
-        brass_truss
-        brass_frame
+        [product]steel,cast_iron,lead,nickel,constantan,copper,zinc,brass;truss,frame
         rebar_block
         rebar_floor
         rebar_wall
@@ -205,4 +190,43 @@
         rebar_stairs
         rebar_pillar
         [cuts+]rebar_concrete
-        [cuts+,colored]%s_rebar_concrete
+        [cuts+;colored]%s_rebar_concrete
+        [product]brass,steel,cast_iron;pipe,mechanical_pump,smart_fluid_pipe,fluid_valve
+        plastic_mechanical_pump
+        plastic_smart_fluid_pipe
+        plastic_fluid_valve
+        lpg_bucket
+        butane_bucket
+        propane_bucket
+        hydrogen_bucket
+        furnace_gas_bucket
+        ethylene_bucket
+        propylene_bucket
+        neon_bucket
+        carbon_dioxide_bucket
+        air_bucket
+        hot_air_bucket
+        crude_oil_bucket
+        heavy_oil_bucket
+        gasoline_bucket
+        diesel_bucket
+        naphtha_bucket
+        kerosene_bucket
+        creosote_bucket
+        molten_steel_bucket
+        molten_slag_bucket
+        molten_plastic_bucket
+        liquid_silicon_bucket
+        lubrication_oil_bucket
+        cooling_fluid_bucket
+        napalm_bucket
+        sulfuric_acid_bucket
+        liquid_concrete_bucket
+        liquid_asphalt_bucket
+    <entities>
+        copper_grenade
+        zinc_grenade
+        blue_spark
+        green_spark
+        lithium_spark
+        pipe_bomb

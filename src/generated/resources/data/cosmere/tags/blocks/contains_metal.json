@@ -1931,6 +1931,178 @@
     {
       "id": "tfmg:black_rebar_concrete_wall",
       "required": false
+    },
+    {
+      "id": "tfmg:brass_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:brass_mechanical_pump",
+      "required": false
+    },
+    {
+      "id": "tfmg:brass_smart_fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:brass_fluid_valve",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_mechanical_pump",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_smart_fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:steel_fluid_valve",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_mechanical_pump",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_smart_fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:cast_iron_fluid_valve",
+      "required": false
+    },
+    {
+      "id": "tfmg:plastic_mechanical_pump",
+      "required": false
+    },
+    {
+      "id": "tfmg:plastic_smart_fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "tfmg:plastic_fluid_valve",
+      "required": false
+    },
+    {
+      "id": "tfmg:lpg_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:butane_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:propane_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:hydrogen_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:furnace_gas_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:ethylene_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:propylene_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:neon_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:carbon_dioxide_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:air_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:hot_air_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:crude_oil_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:heavy_oil_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:gasoline_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:diesel_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:naphtha_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:kerosene_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:creosote_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:molten_steel_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:molten_slag_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:molten_plastic_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:liquid_silicon_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:lubrication_oil_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:cooling_fluid_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:napalm_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:sulfuric_acid_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:liquid_concrete_bucket",
+      "required": false
+    },
+    {
+      "id": "tfmg:liquid_asphalt_bucket",
+      "required": false
     }
   ]
 }
