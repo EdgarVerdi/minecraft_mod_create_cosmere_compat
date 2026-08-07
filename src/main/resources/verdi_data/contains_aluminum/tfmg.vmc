@@ -1,6 +1,6 @@
 # Just Aluminum
-:tfmg:
-    :items:
+<tfmg>
+    <items>
         aluminum_ingot
         aluminum_sheet
         aluminum_nugget
@@ -10,15 +10,15 @@
         diesel_cylinder
         aluminum_spool
         thermite_grenade
-    :block_and_items:
+    <block_and_items>
         aluminum_fluid_tank
         aluminum_block
         aluminum_door
 
 # Aluminum AND metal
 
-:tfmg:
-    :items:
+<tfmg>
+    <items>
         thermite_powder
         bauxite_powder # idk
         lithium_charge
@@ -35,7 +35,7 @@
         electricians_wrench
         zinc_grenade
         copper_grenade
-    :block_and_items:
+    <block_and_items>
         turbine_engine
         large_engine
         aluminum_cable_hub

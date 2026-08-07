@@ -117,7 +117,7 @@ public class TagFileReader {
         for (File path : listFilesForFolder(folder_path)) {
             try {
                 in = new Scanner(path);
-                in.useDelimiter(":");
+                in.useDelimiter("[<>]");
             } catch (Exception e) {
                 System.out.println("Could not read text file!");
                 return ret;

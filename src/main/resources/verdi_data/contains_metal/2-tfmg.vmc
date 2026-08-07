@@ -1,5 +1,5 @@
-:tfmg:
-    :block_and_items:
+<tfmg>
+    <block_and_items>
         regular_engine
         radial_engine
         simple_large_engine
@@ -96,7 +96,7 @@
         heavy_casing_door
         steel_door
         heavy_plated_door
-    :items:
+    <items>
         steel_ingot
         cast_iron_ingot
         heavy_plate
@@ -158,7 +158,7 @@
         quad_potato_cannon
         pipe_bomb
         oil_can
-    :block_and_items:
+    <block_and_items>
         steel_gearbox
         steel_vertical_gearbox
         steel_encased_shaft
