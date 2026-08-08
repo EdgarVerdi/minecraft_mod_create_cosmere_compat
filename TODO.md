@@ -8,4 +8,5 @@
   - [x] decide if dust should be removed too or not (was kept)
 - [x] Stop cosmere zinc from spawning in the world
 - [x] Add contains metal to all cosmere blocks that apply
-- [ ] Add a description in gradle.properties whenever
+- [x] Add a description in gradle.properties whenever
+- [ ] Add a fallback to ores from addons (in case someone removes the other mods, they instantly convert to cosmere ores)
