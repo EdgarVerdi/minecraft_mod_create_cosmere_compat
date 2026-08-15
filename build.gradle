@@ -159,6 +159,7 @@ dependencies {
 
     //Other Create Addons
     implementation fg.deobf("curse.maven:create-industry-693815:7344584")
+    implementation fg.deobf("curse.maven:createaddition-439890:7208610")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -1,0 +1,8 @@
+# ingot -> 2000
+
+<create>
+    <gold>
+        googles:2000 # (1 ingot)
+<createaddition>
+    <electrum>
+        electrum_amulet:11000 #(5.5 ingot)  (contains emerald gem)
