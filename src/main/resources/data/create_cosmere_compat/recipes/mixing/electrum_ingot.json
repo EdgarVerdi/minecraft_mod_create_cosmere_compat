@@ -14,5 +14,14 @@
       "count": 2,
       "item": "cosmere:electrum_ingot"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "createaddition"
+      }
+    }
   ]
 }

@@ -61,7 +61,7 @@ public class ModDataGenerators {
         //Recipes provider
         generator.addProvider(event.includeServer(), new ModRecipeGenerator(packOutput));
 
-        printAllItemsOfMod("tfmg");
+        //printAllItemsOfMod("createaddition");
     }
 
     @SuppressWarnings({"removal"}) // Shuts IntelliJ up!

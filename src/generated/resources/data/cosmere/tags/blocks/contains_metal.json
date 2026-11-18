@@ -2103,6 +2103,62 @@
     {
       "id": "tfmg:liquid_asphalt_bucket",
       "required": false
+    },
+    {
+      "id": "createaddition:electric_motor",
+      "required": false
+    },
+    {
+      "id": "createaddition:alternator",
+      "required": false
+    },
+    {
+      "id": "createaddition:rolling_mill",
+      "required": false
+    },
+    {
+      "id": "createaddition:creative_energy",
+      "required": false
+    },
+    {
+      "id": "createaddition:connector",
+      "required": false
+    },
+    {
+      "id": "createaddition:small_light_connector",
+      "required": false
+    },
+    {
+      "id": "createaddition:large_connector",
+      "required": false
+    },
+    {
+      "id": "createaddition:redstone_relay",
+      "required": false
+    },
+    {
+      "id": "createaddition:barbed_wire",
+      "required": false
+    },
+    {
+      "id": "createaddition:tesla_coil",
+      "required": false
+    },
+    {
+      "id": "createaddition:modular_accumulator",
+      "required": false
+    },
+    {
+      "id": "createaddition:portable_energy_interface",
+      "required": false
+    },
+    {
+      "id": "createaddition:electrum_block",
+      "required": false
+    },
+    {
+      "id": "createaddition:digital_adapter",
+      "required": false
     }
   ]
 }
